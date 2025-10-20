@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cv</title>
+        <style>
+            table {border-collapse: collapse}
+            td, th { border : solid ; padding: 6px; border-color: black;}
+        </style>
+    </head>
+
+    <body>
+        <div style="display: flex; flex-direction: column; width: 25%;">
+            <div>Firstname</div>
+            <input type="text" id="firstname">
+            <div>Name</div>
+            <input type="text" id="name">
+            <div>Age</div>
+            <input type="number" id="age">
+            <div>Phone</div>
+            <input type="tel" id="phone">
+            <div>Email</div>
+            <input type="email" id="email">
+            <div style="flex-direction: row;">
+                <div>Student at 42?</div>
+                <input type="checkbox" id="student">            
+            </div>
+            <div>Gender</div>
+            <div style="flex-direction: row;">
+                <div>Male</div>
+                <input type="radio" name=gender id="gender_male">
+                <div>Female</div>
+                <input type="radio" name=gender id="gender_female">
+                <div>Other</div>
+                <input type="radio" name=gender id="gender_other">
+            </div>
+        </div>
+        <button onclick="displayFormContents()">Submit</button>
+        <script src="./popup.js"></script>
+    </body>
+    <!DOCTYPE html>
+</html>

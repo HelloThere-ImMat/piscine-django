@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cv</title>
+        <style>
+            table { border-collapse: collapse }
+            td, th { border : solid ; padding: 6px; border-color: black; }
+        </style>
+    </head>
+    <body>
+        <title>RESUME</title>
+        <div>{firstname} {lastname}</div>
+        <div>Software Developper</div>
+        
+        <h1>PROFICIENT SKILLS</h1>
+        <ol>
+            <li>TypeScript</li>
+            <li>Angular</li>
+            <li>Node</li>
+        </ol>
+        
+        <h1>EXPERIENCE</h1>
+        <ul>
+            <li>{exp1}</li>
+            <li>{exp2}</li>
+            <li>{exp3}</li>
+        </ul>
+        
+        <h1>PERSONNAL PROJECTS</h1>
+        <ul>
+            <li>{pp1}</li>
+            <li>{pp2}</li>
+            <li>{pp3}</li>
+        </ul>
+    </body>
+</html>

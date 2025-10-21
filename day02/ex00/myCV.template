@@ -11,8 +11,10 @@
     </head>
     <body>
         <title>RESUME</title>
-        <div>{firstname} {lastname}</div>
+        <div>{firstname} {lastname}</div>        
+        <div>24 years old</div>
         <div>Software Developper</div>
+        
         
         <h1>PROFICIENT SKILLS</h1>
         <ol>

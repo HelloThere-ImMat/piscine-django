@@ -7,7 +7,7 @@ def func() :
     settingsStr = settings.read()
 
     exec(settingsStr, {}, valuedic)
-    f = open("file.template")
+    f = open("myCV.template")
     file = f.read()
 
     def check_and_replace(match) :
@@ -17,7 +17,7 @@ def func() :
         else :
             return (match.group(0))
 
-    string = re.sub("\{(.*?)\}", check_and_replace, file)
+    string = re.sub("\\{(.*?)\\}", check_and_replace, file)
     print(string)
 
 if __name__ == '__main__' : 
